@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="content_0" height="800" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="180" left="100" width="260" zIndex="0" breakWord="true" multiLine="true" value="$IAT/Monitoring_Datapoint1" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput5" top="240" left="100" width="260" zIndex="1" breakWord="true" multiLine="true" value="$IAT/Monitoring_Datapoint1" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput6" top="300" left="100" width="260" zIndex="2" breakWord="true" multiLine="true" value="$IAT/Monitoring_Datapoint1" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput7" top="360" left="100" width="260" zIndex="3" breakWord="true" multiLine="true" value="$IAT/Monitoring_Datapoint1" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput8" top="420" left="100" width="260" zIndex="4" breakWord="true" multiLine="true" value="$IAT/Monitoring_Datapoint1" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput9" top="480" left="100" width="260" zIndex="5" breakWord="true" multiLine="true" value="$IAT/Monitoring_Datapoint1" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput10" top="540" left="100" width="260" zIndex="6" breakWord="true" multiLine="true" value="$IAT/Monitoring_Datapoint1" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput11" top="600" left="100" width="260" zIndex="7" breakWord="true" multiLine="true" value="$IAT/Monitoring_Datapoint1" fontSize="16px" />
+  </Widgets>
+</Content>

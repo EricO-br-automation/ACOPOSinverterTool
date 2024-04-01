@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ControlContent" height="800" width="500" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton1" top="80" left="40" width="160" zIndex="0" text="Power On" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton2" top="180" left="40" width="160" zIndex="1" text="Power Off" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput3" top="260" left="40" width="160" zIndex="2" value="$IAT/Speed" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="320" left="40" width="200" zIndex="3" value="$IAT/ActualSpeed" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput5" top="380" left="40" width="160" zIndex="4" value="$IAT/Frequency" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput6" top="440" left="40" width="160" zIndex="5" value="$IAT/ActualFreq" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput7" top="500" left="40" width="200" zIndex="6" value="$IAT/CMDD" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput8" top="560" left="40" width="200" zIndex="7" value="$IAT/ETAD" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput9" top="620" left="40" width="220" zIndex="8" value="$IAT/ERRD" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="260" left="340" zIndex="9" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput2" top="320" left="340" zIndex="10" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput3" top="380" left="340" zIndex="11" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput4" top="440" left="340" zIndex="12" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput5" top="500" left="340" zIndex="13" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput6" top="560" left="340" zIndex="14" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput7" top="620" left="340" zIndex="15" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput1" top="80" left="260" width="160" zIndex="16" value="$IAT/Reading" textColor="rgba(255, 140, 0, 1)" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput2" top="120" left="260" width="180" zIndex="17" value="$IAT/Writing" textColor="rgba(255, 140, 0, 1)" />
+  </Widgets>
+</Content>

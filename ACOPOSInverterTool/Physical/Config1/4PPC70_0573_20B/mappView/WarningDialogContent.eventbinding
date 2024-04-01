@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="WarningDialogContent_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="EventBinding_2">
+      <Source xsi:type="widgets.brease.MomentaryPushButton.Event" contentRefId="WarningDialogContent" widgetRefId="AcknowledgeWarningButton" event="Click" />
+      <Operand datatype="ANY_INT" name="Motor">
+        <ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::Main:hmiCom.selectedMotorINT">
+          <Method xsi:type="opcUa.NodeAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="Motor = 0">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.Navigate" pageId="MainPage" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="WarningDialog" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="3">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="ServoContent" pageId="MainPage" areaId="areaMain" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="Motor = 1">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.Navigate" pageId="MainPage" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.CloseDialog" dialogId="WarningDialog" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="2">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="InductionContent" pageId="MainPage" areaId="areaMain" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

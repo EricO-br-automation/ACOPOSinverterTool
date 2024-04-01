@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="WatchContent" height="800" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput3" top="60" left="120" width="160" zIndex="0" value="$IAT/Datapoint1" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="120" left="120" width="160" zIndex="1" value="$IAT/Datapoint2" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput5" top="180" left="120" width="160" zIndex="2" value="$IAT/Datapoint3" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput6" top="240" left="120" width="160" zIndex="3" value="$IAT/Datapoint4" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput7" top="300" left="120" width="160" zIndex="4" value="$IAT/Datapoint5" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput8" top="360" left="120" width="160" zIndex="5" value="$IAT/Datapoint6" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput9" top="420" left="120" width="160" zIndex="6" value="$IAT/Datapoint7" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput10" top="480" left="120" width="160" zIndex="7" value="$IAT/Datapoint8" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="60" left="440" zIndex="8" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput11" top="60" left="260" width="160" zIndex="9" value="$IAT/Datapoint1" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput12" top="120" left="260" width="160" zIndex="10" value="$IAT/Datapoint2" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput13" top="180" left="260" width="160" zIndex="11" value="$IAT/Datapoint3" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput14" top="240" left="260" width="160" zIndex="12" value="$IAT/Datapoint4" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput15" top="300" left="260" width="160" zIndex="13" value="$IAT/Datapoint5" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput16" top="360" left="260" width="160" zIndex="14" value="$IAT/Datapoint6" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput17" top="420" left="260" width="160" zIndex="15" value="$IAT/Datapoint7" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput18" top="480" left="260" width="160" zIndex="16" value="$IAT/Datapoint8" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput2" top="120" left="440" zIndex="17" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput3" top="180" left="440" zIndex="18" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput4" top="240" left="440" zIndex="19" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput5" top="300" left="440" zIndex="20" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput6" top="360" left="440" zIndex="21" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput7" top="420" left="440" zIndex="22" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput8" top="480" left="440" zIndex="23" />
+  </Widgets>
+</Content>

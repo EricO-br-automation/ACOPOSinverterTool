@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="07/07/2022 09:48:22" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="5APC2100_BY44_000" Type="5APC2100.BY44-000" X="93" Y="85" />
+    <Module Name="5ACCIF01.FPLK-000" Type="5ACCIF01.FPLK-000" X="89" Y="95" />
+    <Module Name="8I66xxxxxxx.0P-xxx" Type="8I66xxxxxxx.0P-xxx" X="134" Y="264" />
+  </Modules>
+  <Links>
+    <Link From="5ACCIF01.FPLK-000" To="8I66xxxxxxx.0P-xxx" FromPort="IF1" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="130" Y="103" />
+      <Point X="130" Y="103" />
+      <Point X="135" Y="103" />
+      <Point X="145" Y="103" />
+      <Point X="145" Y="225" />
+      <Point X="125" Y="225" />
+      <Point X="125" Y="375" />
+      <Point X="151" Y="375" />
+      <Point X="151" Y="364.1" />
+      <Point X="151" Y="358.1" />
+      <Point X="151" Y="358.1" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

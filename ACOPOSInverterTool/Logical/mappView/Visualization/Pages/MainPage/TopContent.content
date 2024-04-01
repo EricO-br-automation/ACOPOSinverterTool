@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="TopContent" height="100" width="1440" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton1" top="15" left="1120" width="300" zIndex="0" text="$IAT/WriteParameters" />
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton2" top="55" left="1120" width="300" zIndex="1" text="$IAT/LoadParameters" />
+    <Widget xsi:type="widgets.brease.LanguageSelector" id="LanguageSelector1" top="40" left="40" zIndex="2" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="TextOutput4" top="65" left="240" width="260" zIndex="3" breakWord="true" multiLine="true" value="$IAT/FirmwareVersion" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.DropDownBox" id="InverterSelectionDropDown" top="10" left="500" width="420" height="60" zIndex="4" dataProvider="[{'value':'0','text':'Drive + Synchronous Motor'},{'value':'1','text':'Drive + Asynchronous Motor'}]" listWidth="380" selectedValue="0" fontSize="24px" italic="true" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="InverterModelTextOutput" top="10" left="240" width="340" height="51" zIndex="5" value="$IAT/Select_Setup" fontSize="24px" bold="true" />
+  </Widgets>
+</Content>

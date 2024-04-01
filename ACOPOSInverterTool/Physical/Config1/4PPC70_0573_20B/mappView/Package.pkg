@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="mappViewControl" PackageType="mappViewControl" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Visualizat.vis</Object>
+    <Object Type="File">Config.mappviewcfg</Object>
+    <Object Type="File">SplashContent.binding</Object>
+    <Object Type="File">SplashContent.eventbinding</Object>
+    <Object Type="File">WarningDialogContent.eventbinding</Object>
+    <Object Type="File">InductionContent.binding</Object>
+    <Object Type="File">ServoContent.eventbinding</Object>
+    <Object Type="File">TopContent.binding</Object>
+    <Object Type="File">TopContent.eventbinding</Object>
+    <Object Type="File">NavContent.eventbinding</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="TextConfig" Type="TextConfig">
+    <Group ID="Languages">
+      <Property ID="UserDefaultLanguage" Value="en" />
+      <Property ID="UserFallbackLanguage" Value="de" />
+      <Group ID="TargetLanguages">
+        <Property ID="TargetLanguage[1]" Value="en" />
+        <Property ID="TargetLanguage[2]" Value="de" />
+      </Group>
+    </Group>
+    <Group ID="TargetFiles">
+      <Property ID="TargetFile[1]" Value="Textsources.SplashTexts.tmx" />
+      <Property ID="TargetFile[2]" Value="Textsources.WaningDialogTexts.tmx" />
+      <Property ID="TargetFile[3]" Value="Textsources.NavTexts.tmx" />
+      <Property ID="TargetFile[4]" Value="Textsources.ParamTexts.tmx" />
+      <Property ID="TargetFile[5]" Value="Textsources.WatchTexts.tmx" />
+      <Property ID="TargetFile[6]" Value="Textsources.TopTexts.tmx" />
+    </Group>
+  </Element>
+</Configuration>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.12.3.127 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="4PPC70_0573_20B" Type="4PPC70.0573-20B" Version="1.5.4.0">
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="192.168.0.20" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+      <Parameter ID="InaPort" Value="11160" />
+      <Parameter ID="ActivateSnmp" Value="2" />
+      <Parameter ID="ActivateModbus" Value="1" />
+      <Parameter ID="NumSlaves" Value="-1" />
+      <Parameter ID="NumAllBlocks" Value="-1" />
+      <Parameter ID="MemSizeIn" Value="-1" />
+      <Parameter ID="MemSizeOut" Value="-1" />
+      <Parameter ID="ModbusSlaveGrey" Value="1" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="ACOPOSInverterTool_Config1" />
+    <Parameter ID="Simulation" Value="1" />
+    <Parameter ID="XLinkUseDefault" Value="0" />
+    <Parameter ID="XLinkDuration" Value="2000" />
+    <Parameter ID="Cyclic1Duration" Value="2000" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="USER" />
+    <Parameter ID="FileDevicePath1" Value="USER_PATH" />
+    <Parameter ID="ActivateOpcUa" Value="1" />
+    <Parameter ID="OpcUaInformationModels_PV_Version" Value="1" />
+    <Parameter ID="KeyMappingFile" Value="VC\4PPC70_0573_20B.dis" />
+  </Module>
+  <Module Name="8I66xxxxxxx.0P-xxx" Type="8I66xxxxxxx.0P-xxx" Version="2.5.1.0">
+    <Connection Connector="PLK1" TargetModule="4PPC70_0573_20B" TargetConnector="IF1" NodeNumber="2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="UnitOfSetpoint" Value="Rpm" />
+    <Parameter ID="IOM_AIDP1" Value="RFR_D" />
+    <Parameter ID="IOM_AIDP2" Value="FRO_D" />
+    <Parameter ID="IOM_AIDP3" Value="OTRN" />
+    <Parameter ID="IOM_AIDP4" Value="UOP" />
+    <Parameter ID="IOM_AIDP5" Value="LCR" />
+    <Parameter ID="IOM_AIDP6" Value="SLCR" />
+    <Parameter ID="IOM_AIDP7" Value="OPR" />
+    <Parameter ID="IOM_AIDP8" Value="ULN" />
+    <Parameter ID="IOM_AIDP9" Value="THR" />
+    <Parameter ID="IOM_AIDP10" Value="THD" />
+    <Parameter ID="FunctionModel_ACPi" Value="Template50_SYN" />
+    <Parameter ID="Sel_NameplateMask" Value="8Ix6T200037_IEC" />
+    <Parameter ID="Sel_TUN" Value="MANU" />
+    <Parameter ID="Sel_References" Value="Hz" />
+    <Parameter ID="Cfg_FLR" Value="1" />
+  </Module>
+</Hardware>

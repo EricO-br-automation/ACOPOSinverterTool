@@ -1,0 +1,51 @@
+(*************************************EPL Stuff************************************************************************)
+VAR
+	eplWriteBlock : EplSDOWrite; (*This function block is used to write a node's object entries when using an SDO transfer that is constantly running in the background.
+*)
+	eplReadBlock : EplSDORead; (*This function block is used to read a node's object entries when using an SDO transfer that is constantly running in the background.
+*)
+	eplReadBuffer : ARRAY[0..MAXINDEX] OF eplParTyp; (*Array of Inputs for the Read FB*)
+	eplWriteBuffer : ARRAY[0..MAXINDEX] OF eplParTyp; (*Array of Inputs for the Write FB (Open to see parameters)*)
+	readBools : ARRAY[0..MAXINDEX] OF BOOL;
+	writeBools : ARRAY[0..MAXINDEX] OF BOOL;
+	readData : DataBufferTyp;
+	writeData : DataBufferTyp;
+	pDevice : STRING[80]; (*Device name of the POWERLINK interface (syntax: SL<x>.SS<y>.IF<z>). If a null pointer is specified, the function block uses the first POWERLINK interface on the system.
+*)
+	state : state_enum; (*State enumeration variable*)
+	runstate : runstate_enum;
+	readstate : readstate_enum; (*State enumeration variable*)
+	writestate : writestate_enum; (*State enumeration variable*)
+	startupstate : startupstate_enum;
+	aststate : ast_change_enum;
+	i : USINT; (*for loop variable*)
+	j : USINT; (*loop variable 2*)
+	k : USINT; (*loop variable 3*)
+END_VAR
+VAR CONSTANT
+	MAXINDEX : USINT := 77; (*Maximum index*)
+END_VAR
+VAR
+	hmiCom : hmiCommTyp;
+	addressBook : USINT;
+	startupRoutine : BOOL;
+	startupDone : BOOL;
+	oldAstVis : STRING[3];
+	oldAstDrive : UINT;
+END_VAR
+(**************************************Test Stuff***********************************************************************)
+VAR
+	controlWord : UINT; (*CMDD*)
+	errorWord : UINT; (*ERRD*)
+	statusWord : UINT; (*ETAD*)
+	setpointRead : INT; (*FROD*)
+	setpointWrite : INT; (*LFRD*)
+	feedbackValue : INT; (*RFRD*)
+	controlEnable : BOOL; (*Boolean to prevent writing to EPL while controlling the axis*)
+	firmwareVersion : UDINT;
+	hardwareVariant : UDINT;
+END_VAR
+(*************************************Hmi Comm Stuff********************************************************************)
+VAR
+	comm : hmiCommTyp;
+END_VAR

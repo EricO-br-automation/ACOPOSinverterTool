@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Select_Setup">
+      <tuv xml:lang="de">
+        <seg>Motortyp Auswählen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Select Setup Type:</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NodeNumber">
+      <tuv xml:lang="de">
+        <seg>Knotennummer einspeisen:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Enter Node Number:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Launch">
+      <tuv xml:lang="de">
+        <seg>Tool Starten</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Launch Tool</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ACOPOSinverterModel">
+      <tuv xml:lang="de">
+        <seg>ACOPOSinverter Modelle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>ACOPOSinverter Model</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

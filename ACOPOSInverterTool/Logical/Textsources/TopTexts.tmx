@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="WriteParameters">
+      <tuv xml:lang="de">
+        <seg>Alle Parametern speichern
+</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Write All Parameters to Drive</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Mon unité</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LoadParameters">
+      <tuv xml:lang="en">
+        <seg>Load All Parameters From Drive
+</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Unité</seg>
+      </tuv>
+    </tu>
+    <tu tuid="DriveOnline">
+      <tuv xml:lang="de">
+        <seg>Umrichter Verbindung:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Drive Online:</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Ma description</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FirmwareVersion">
+      <tuv xml:lang="de">
+        <seg>Firmware Version:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Firmware Version:</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

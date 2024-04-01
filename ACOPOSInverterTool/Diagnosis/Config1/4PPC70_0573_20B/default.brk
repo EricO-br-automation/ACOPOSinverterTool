@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<breakpoints>
+  <breakpoint>
+    <status>Y</status>
+    <file>Logical/Main/startup.st</file>
+    <position>571</position>
+    <condition></condition>
+    <instance></instance>
+    <program>Main</program>
+  </breakpoint>
+  <breakpoint>
+    <status>Y</status>
+    <file>Logical/Main/startup.st</file>
+    <position>562</position>
+    <condition></condition>
+    <instance></instance>
+    <program>Main</program>
+  </breakpoint>
+</breakpoints>

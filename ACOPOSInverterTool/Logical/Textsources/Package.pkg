@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">SplashTexts.tmx</Object>
+    <Object Type="File">WaningDialogTexts.tmx</Object>
+    <Object Type="File">NavTexts.tmx</Object>
+    <Object Type="File">ParamTexts.tmx</Object>
+    <Object Type="File">WatchTexts.tmx</Object>
+    <Object Type="File">TopTexts.tmx</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="PowerOn">
+      <tuv xml:lang="de">
+        <seg>Einschalten</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Power On</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Mon unité</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PowerOff">
+      <tuv xml:lang="de">
+        <seg>Ausschalten</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Power Off</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Unité</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Speed">
+      <tuv xml:lang="de">
+        <seg>Geschw. (LFRD)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Speed (LFRD)</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Ma description</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Frequency">
+      <tuv xml:lang="de">
+        <seg>Frequenz (LFR)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Frequency (LFR)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ActualSpeed">
+      <tuv xml:lang="de">
+        <seg>Aktuelle Geschw. (RFRD)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Actual Speed (RFRD)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ERRD">
+      <tuv xml:lang="de">
+        <seg>Fehlernummer (ERRD)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Error Code (ERRD)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ETAD">
+      <tuv xml:lang="de">
+        <seg>Status Word (ETAD)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Status Word (ETAD)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CMDD">
+      <tuv xml:lang="de">
+        <seg>Control Word (CMDD)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Control Word (CMDD)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ActualFreq">
+      <tuv xml:lang="de">
+        <seg>Aktuelle Freq. (RFR)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Actual Freq. (RFR)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CMDDVal" />
+    <tu tuid="ERRDVal" />
+    <tu tuid="ETADVal" />
+    <tu tuid="Datapoint1">
+      <tuv xml:lang="de">
+        <seg>Datenpunkt 1:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Datapoint 1:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Datapoint2">
+      <tuv xml:lang="de">
+        <seg>Datenpunkt 2:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Datapoint 2:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Datapoint3">
+      <tuv xml:lang="de">
+        <seg>Datenpunkt 3:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Datapoint 3:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Datapoint4">
+      <tuv xml:lang="de">
+        <seg>Datenpunkt 4:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Datapoint 4:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Datapoint5">
+      <tuv xml:lang="de">
+        <seg>Datenpunkt 5:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Datapoint 5:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Datapoint6">
+      <tuv xml:lang="de">
+        <seg>Datenpunkt 6:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Datapoint 6:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Datapoint7">
+      <tuv xml:lang="de">
+        <seg>Datenpunkt 7:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Datapoint 7:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Datapoint8">
+      <tuv xml:lang="de">
+        <seg>Datenpunkt 8:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Datapoint 8:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Reading">
+      <tuv xml:lang="en">
+        <seg>Read In Progress!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Writing">
+      <tuv xml:lang="en">
+        <seg>Write In Progress!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

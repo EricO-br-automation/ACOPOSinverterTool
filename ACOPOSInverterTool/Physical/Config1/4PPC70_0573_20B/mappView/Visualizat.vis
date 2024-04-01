@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vdef:Visualization id="vis_0" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="SplashPage" />
+  <Pages>
+    <Page refId="SplashPage" />
+    <Page refId="MainPage" />
+    <Page refId="AlarmPage" />
+  </Pages>
+  <Navigations />
+  <BindingsSets>
+    <BindingsSet refId="SplashContent_binding" />
+    <BindingsSet refId="InductionContent_binding" />
+    <BindingsSet refId="TopContent_binding" />
+  </BindingsSets>
+  <EventBindingsSets>
+    <EventBindingsSet refId="SplashContent_eventbinding" />
+    <EventBindingsSet refId="WarningDialogContent_eventbinding" />
+    <EventBindingsSet refId="ServoContent_eventbinding" />
+    <EventBindingsSet refId="TopContent_eventbinding" />
+    <EventBindingsSet refId="NavContent_eventbinding" />
+  </EventBindingsSets>
+  <Dialogs>
+    <Dialog refId="WarningDialog" />
+  </Dialogs>
+  <Contents>
+    <Content refId="SplashContent" />
+    <Content refId="WarningDialogContent" />
+    <Content refId="NavContent" />
+    <Content refId="ControlContent" />
+    <Content refId="InductionContent" />
+    <Content refId="WatchContent" />
+    <Content refId="ServoContent" />
+    <Content refId="TopContent" />
+    <Content refId="content_0" />
+  </Contents>
+  <SnippetsSets />
+  <VariablesSets />
+  <ExpressionsSets />
+  <StartTheme themeRefId="BuRTheme1" />
+  <Themes>
+    <Theme refId="BuRTheme1" />
+  </Themes>
+  <Configurations>
+    <Configuration key="activityCount" value="false" />
+    <Configuration key="zoom" value="true" />
+    <Gestures>
+      <!--<SystemGesture1 touchPoints="2" />
+		  <SystemGesture2 touchPoints="2" />
+		  <SystemGesture3 touchPoints="2" />-->
+    </Gestures>
+    <VirtualKeyboards>
+      <!--<InputProcessing onKeyDown="true" />-->
+    </VirtualKeyboards>
+  </Configurations>
+</vdef:Visualization>

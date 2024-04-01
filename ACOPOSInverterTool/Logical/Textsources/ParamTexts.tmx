@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Advanced">
+      <tuv xml:lang="de">
+        <seg>Erweiterte</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Advanced</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Drive">
+      <tuv xml:lang="de">
+        <seg>Antrieb</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Drive</seg>
+      </tuv>
+    </tu>
+    <tu tuid="General_Setup">
+      <tuv xml:lang="de">
+        <seg>Generell</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>General Setup</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Mon unité</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Monitoring_Datapoint1">
+      <tuv xml:lang="de">
+        <seg>Beobachtungsdatenpunkt 1:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Monitored Datapoint 1:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Monitoring_Datapoint2">
+      <tuv xml:lang="de">
+        <seg>Beobachtungsdatenpunkt 2:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Monitored Datapoint 2:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Monitoring_Datapoint3">
+      <tuv xml:lang="de">
+        <seg>Beobachtungsdatenpunkt 3:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Monitored Datapoint 3:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Monitoring_Datapoint4">
+      <tuv xml:lang="de">
+        <seg>Beobachtungsdatenpunkt 4:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Monitored Datapoint 4:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Monitoring_Datapoint5">
+      <tuv xml:lang="de">
+        <seg>Beobachtungsdatenpunkt 5:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Monitored Datapoint 5:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Monitoring_Datapoint6">
+      <tuv xml:lang="de">
+        <seg>Beobachtungsdatenpunkt 6:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Monitored Datapoint 6:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Monitoring_Datapoint7">
+      <tuv xml:lang="de">
+        <seg>Beobachtungsdatenpunkt 7:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Monitored Datapoint 7:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Monitoring_Datapoint8">
+      <tuv xml:lang="de">
+        <seg>Beobachtungsdatenpunkt 8:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Monitored Datapoint 8:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Motor">
+      <tuv xml:lang="de">
+        <seg>Motor</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Motor</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Unité</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Controller">
+      <tuv xml:lang="en">
+        <seg>Controller</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Unit_Of_Setpoint">
+      <tuv xml:lang="de">
+        <seg>Einheit des Sollwertes</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Unit of Setpoint:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Units_Monitoring">
+      <tuv xml:lang="de">
+        <seg>Einheiten &amp; Beobachtung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Units &amp; Monitoring</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Ma description</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NSP">
+      <tuv xml:lang="de">
+        <seg>NSP: Motorgeschw.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>NSP: Rated motor speed (rpm)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FRS">
+      <tuv xml:lang="de">
+        <seg>FRS: Motorfrequenz</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>FRS: Rated motor freq. (0.1 Hz)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="UNS">
+      <tuv xml:lang="de">
+        <seg>UNS: Motorspannung</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>UNS: Rated motor volt. (V)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NCR">
+      <tuv xml:lang="de">
+        <seg>NCR: Motorstrom</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>NCR: Rated motor current (0.1 A)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="COS">
+      <tuv xml:lang="en">
+        <seg>COS: Cos(φ) (100: NPR is used instead of COS, COS = 100 is recommended for motors with low efficiency (e.g. IE1) and motor nameplates without cosine value) (0.01)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NPR">
+      <tuv xml:lang="en">
+        <seg>NPR: Rated motor power (not needed if power factor is set different to 100) (0.01 kW)
+</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MotorType">
+      <tuv xml:lang="en">
+        <seg>Motor Type:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MotorParams">
+      <tuv xml:lang="en">
+        <seg>Motor Parameters</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RSA">
+      <tuv xml:lang="en">
+        <seg>RSA: Cold Stator Resistance (mOhm)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LFA">
+      <tuv xml:lang="en">
+        <seg>LFA: Leakage inductance (0.01 mH)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDA">
+      <tuv xml:lang="en">
+        <seg>IDA: Nominal magnetizing current (0.1 A)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TRA">
+      <tuv xml:lang="en">
+        <seg>TRA: Rotor Time Constant (ms)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SPG">
+      <tuv xml:lang="en">
+        <seg>SPG: Speed proportional gain (%)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SIT">
+      <tuv xml:lang="en">
+        <seg>SIT: Speed time integral (ms)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SFC">
+      <tuv xml:lang="en">
+        <seg>SFC: Constant K filter</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FFH">
+      <tuv xml:lang="en">
+        <seg>FFH: Filter time for speed estimation (0.1 ms)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CRTF">
+      <tuv xml:lang="en">
+        <seg>CRTF: Filter time for current measurement (0.1 ms)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SLP">
+      <tuv xml:lang="en">
+        <seg>SLP: Slip compensation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="UFR">
+      <tuv xml:lang="en">
+        <seg>UFR: IR compensation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FAB">
+      <tuv xml:lang="en">
+        <seg>FAB: Action Boost (0.1 Hz)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BOO">
+      <tuv xml:lang="en">
+        <seg>BOO: Boost (%)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CTT">
+      <tuv xml:lang="en">
+        <seg>CTT: Motor control law</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SPGU">
+      <tuv xml:lang="en">
+        <seg>SPGU: Inertia compensation (%)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ControlParams">
+      <tuv xml:lang="en">
+        <seg>Control Parameters</seg>
+      </tuv>
+    </tu>
+    <tu tuid="DriveSettings">
+      <tuv xml:lang="en">
+        <seg>Drive Settings</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SFR">
+      <tuv xml:lang="en">
+        <seg>SFR: PWM frequency (0.1 kHz)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SFT">
+      <tuv xml:lang="en">
+        <seg>SFT: PWM frequency adaption</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NRD">
+      <tuv xml:lang="en">
+        <seg>NRD: PWM frequency variation (Noise Reduction)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="JFH">
+      <tuv xml:lang="en">
+        <seg>JFH: Hysteresis (0.1 Hz)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="JPF">
+      <tuv xml:lang="en">
+        <seg>JPF: Skip frequency 1 (0.1 Hz)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="JF2">
+      <tuv xml:lang="en">
+        <seg>JF2: Skip frequency 2 (0.1 Hz)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="JF3">
+      <tuv xml:lang="en">
+        <seg>JF3: Skip frequency 3 (0.1 Hz)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDC">
+      <tuv xml:lang="en">
+        <seg>IDC: DC brake current 1 (0.1 A)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TDI">
+      <tuv xml:lang="en">
+        <seg>TDI: Duration of IDC (0.1 s)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IDC2">
+      <tuv xml:lang="en">
+        <seg>IDC2: DC brake current 2 (0.1 A)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TDC">
+      <tuv xml:lang="en">
+        <seg>TDC: Duration of IDC2 (0.1 s)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NSPS">
+      <tuv xml:lang="en">
+        <seg>NSPS: Nominal Speed (RPM)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PPNS">
+      <tuv xml:lang="en">
+        <seg>PPNS: Motor Pole Pairs</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NCRS">
+      <tuv xml:lang="en">
+        <seg>NCRS: Nominal Current (0.1 A)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TQS">
+      <tuv xml:lang="en">
+        <seg>TQS: Nominal Torque (0.1 NM)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AST">
+      <tuv xml:lang="en">
+        <seg>AST: Motor Construction Type</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RSAS">
+      <tuv xml:lang="en">
+        <seg>RSAS: Stator Resistance (mOhm)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LDS">
+      <tuv xml:lang="en">
+        <seg>LDS: Stator Inductance (Direct) (0.01 mH)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LQS">
+      <tuv xml:lang="en">
+        <seg>LQS: Stator Inductance (Quadrature) (0.01 mH)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PHS">
+      <tuv xml:lang="en">
+        <seg>PHS: EMF (Voltage) Constant (0.1 mV/RPM)</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

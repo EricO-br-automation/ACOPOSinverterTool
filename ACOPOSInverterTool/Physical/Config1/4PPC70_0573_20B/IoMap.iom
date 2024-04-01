@@ -1,0 +1,9 @@
+VAR_CONFIG
+	::Main:controlWord AT %QW."8I66xxxxxxx.0P-xxx".CMDD_Output;
+	::Main:errorWord AT %IW."8I66xxxxxxx.0P-xxx".ERRD_Input;
+	::Main:statusWord AT %IW."8I66xxxxxxx.0P-xxx".ETAD_Input;
+	::Main:hmiCom.cmd.Speed AT %QW."8I66xxxxxxx.0P-xxx".LFRD_Output;
+	::Main:hmiCom.cmd.ActualSpeed  AT %IW."8I66xxxxxxx.0P-xxx".RFRD_Input;
+	::Main:hmiCom.cmd.Freq AT %IW."8I66xxxxxxx.0P-xxx".FRO_Input;
+	::Main:hmiCom.cmd.ActualFreq AT %IW."8I66xxxxxxx.0P-xxx".RFR_Input;
+END_VAR

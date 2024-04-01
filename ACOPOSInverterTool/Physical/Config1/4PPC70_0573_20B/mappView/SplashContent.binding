@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="SplashContent_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.InverterModelInt" attribute="value" />
+<Target xsi:type="brease" contentRefId="SplashContent" widgetRefId="InverterSelectionDropDown1" attribute="selectedIndex" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.LFA" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput7" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.RSA" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput10" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.NPR" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput6" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.COSINE" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput4" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.NCR" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput2" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.UNS" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput3" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.FRS" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput1" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.NSP" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput5" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.UFR" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput19" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.SLP" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput17" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.CRTF" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput20" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.FFH" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput16" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.SFC" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput12" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.SIT" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput13" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.SPG" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput11" attribute="node" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.FAB" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput18" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.BOO" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput21" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.SFR" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput22" attribute="node" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.TRA" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput8" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.IDA" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput9" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.NodeNumber" attribute="node" />
+<Target xsi:type="brease" contentRefId="SplashContent" widgetRefId="NodeNumberInput" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.cmd.saveParams" attribute="value" />
+<Target xsi:type="brease" contentRefId="TopContent" widgetRefId="MomentaryPushButton1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.cmd.loadParams" attribute="value" />
+<Target xsi:type="brease" contentRefId="TopContent" widgetRefId="MomentaryPushButton2" attribute="value" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:readData.NSPS" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput1" attribute="node" />
+</Binding>
+
+
+
+
+
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.PPNS" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput5" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.NCRS" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput3" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.TQS" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput2" attribute="node" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.selectedAstValue" attribute="value" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="DropDownBox15" attribute="selectedValue" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.LQS" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput7" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.PHS" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput9" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.RSAS" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput6" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.SLP" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput17" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.CRTF" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput20" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.FFH" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput16" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.SFC" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput12" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.SIT" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput13" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.SPG" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput11" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.selectedAstValue" attribute="value" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="DropDownBox12" attribute="selectedValue" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.UFR" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput19" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.FAB" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput18" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.BOO" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput21" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.SFR" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput22" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.selectedCFTValue" attribute="value" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="DropDownBox13" attribute="selectedValue" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.TDC" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput30" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.IDC2" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput15" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.TDI" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput27" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.IDC" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput28" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:readData.JF3" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput26" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:readData.JF2" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput29" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.JPF" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput25" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.JFH" attribute="node" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="NumericInput24" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.selectedNRDIndex" attribute="value" />
+<Target xsi:type="brease" contentRefId="ServoContent" widgetRefId="DropDownBox14" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.selectedCTTValue" attribute="value" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="DropDownBox12" attribute="selectedValue" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.selectedSFTValue" attribute="value" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="DropDownBox13" attribute="selectedValue" />
+</Binding>
+</Bindings>
+</BindingsSet>

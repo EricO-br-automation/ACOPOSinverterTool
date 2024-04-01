@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="InductionContent_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.JFH" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput24" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.JPF" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput25" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.JF2" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput29" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.JF3" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput26" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.IDC" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput28" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.TDI" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput27" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.IDC2" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput15" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.ReadWriteBuffer.TDC" attribute="node" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="NumericInput30" attribute="node" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.selectedNRDIndex" attribute="value" />
+<Target xsi:type="brease" contentRefId="InductionContent" widgetRefId="DropDownBox14" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.Writing" attribute="value" />
+<Target xsi:type="brease" contentRefId="ControlContent" widgetRefId="TextOutput2" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Main:hmiCom.Reading" attribute="value" />
+<Target xsi:type="brease" contentRefId="ControlContent" widgetRefId="TextOutput1" attribute="visible" />
+</Binding>
+</Bindings>
+</BindingsSet>

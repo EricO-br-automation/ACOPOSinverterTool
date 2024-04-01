@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Warning">
+      <tuv xml:lang="de">
+        <seg>Meine Einheit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Danger!
+
+Improper control of motors can result in unintended hazardous movements!
+
+Some possible causes for this improper control may include:
+
+•Incorrect installation or a mistake when handling components
+•Improper or incomplete wiring
+•Defective devices (drive system, motor, position encoder, cables, brake)
+•Incorrect control (e.g. caused by software error)
+
+</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Mon unité</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AcknowledgeWarning">
+      <tuv xml:lang="en">
+        <seg>Acknowledge Warning</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
